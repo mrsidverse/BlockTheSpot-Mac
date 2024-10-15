@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-BLOCKTHESPOT_VERSION="1.2.48.405.gf2c48e6f"
-
 # dependencies check
 command -v perl >/dev/null || { echo -e "\nperl was not found, exiting...\n" >&2; exit 1; }
 command -v unzip >/dev/null || { echo -e "\nunzip was not found, exiting...\n" >&2; exit 1; }
@@ -143,14 +141,6 @@ echo "BlockTheSpot-Mac by @Nuzair46"
 echo "************************"
 echo
 
-# Report versions
-echo -e "Spotify version: ${CLIENT_VERSION}"
-echo -e "BlockTheSpot-Mac version: ${BLOCKTHESPOT_VERSION}\n"
-
-# if [[ $(ver "${CLIENT_VERSION}") -lt $(ver "${BLOCKTHESPOT_VERSION}") ]]; then
-#   echo "This version of BlockTheSpot-Mac is not compatible with your Spotify version."
-#   echo "Please use an older version of BlockTheSpot-Mac or update Spotify."
-#   exit; fi
 
 if [[ "${SKIP_CODE_SIGNATURE}" == "true" ]]; then
   echo "Skipping code signature check..."
