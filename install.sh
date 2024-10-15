@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-BLOCKTHESPOT_VERSION="1.2.32.985.g3be2709c"
+BLOCKTHESPOT_VERSION="1.2.48.405.gf2c48e6f"
 
 # dependencies check
 command -v perl >/dev/null || { echo -e "\nperl was not found, exiting...\n" >&2; exit 1; }
