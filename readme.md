@@ -34,7 +34,7 @@
 - Run The following command in Terminal:
 
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/Nuzair46/BlockTheSpot-Mac/main/install.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/mrsidverse/BlockTheSpot-Mac/refs/heads/main/install.sh)
 ```
 
 #### Note:
@@ -64,7 +64,7 @@ Use any combination of flags.
 The following example clears app cache, adds experimental features, leaves new UI enabled and blocks updates:
 
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/Nuzair46/BlockTheSpot-Mac/main/install.sh) -hu
+bash <(curl -sSL https://raw.githubusercontent.com/mrsidverse/BlockTheSpot-Mac/refs/heads/main/install.sh) -hu
 ```
 
 ### Uninstall:
